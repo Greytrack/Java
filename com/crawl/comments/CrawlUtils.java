@@ -118,7 +118,6 @@ public class CrawlUtils {
         CloseableHttpResponse response = client.execute(getJson);
         String json = EntityUtils.toString(response.getEntity());
         JSONObject jsonObject = new JSONObject(json);
-
         return jsonObject.getJSONObject("data").getInt("total");
     }
 }
