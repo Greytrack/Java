@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="MicroWave/|PullBookinfo/|CrawlDouyuDanmu/src/main/java/|Struts2FileUpAndDown/src/|medical_question/|CrawlPandaDanmu/src/main/java/|西邮导游系统源码/源码/|InsulinPump/" kind="src" path=""/>
+	<classpathentry kind="src" path="西邮导游系统源码/源码"/>
+	<classpathentry kind="src" path="CrawlDouyuDanmu/src/main/java"/>
+	<classpathentry kind="src" path="CrawlPandaDanmu/src/main/java"/>
+	<classpathentry kind="src" path="InsulinPump"/>
+	<classpathentry kind="src" path="medical_question"/>
+	<classpathentry kind="src" path="MicroWave"/>
+	<classpathentry kind="src" path="PullBookinfo"/>
+	<classpathentry kind="src" path="Struts2FileUpAndDown/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
