@@ -50,6 +50,7 @@ public class Main {
             out.close();
             Runtime.getRuntime().exec("eog /tmp/zhihu.gif");//ubuntu下看图片的命令是eog
             System.out.println("从第" + start + "个评论开始抓取");
+            System.out.println("从第" + start + "个评论开始抓取");
             //请用户输入验证码
             System.out.print("请输入验证码：");
             Scanner scanner = new Scanner(System.in);
