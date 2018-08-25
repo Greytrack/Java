@@ -71,7 +71,7 @@ public class Main {
                 if (start + count > commentsCount) {
                     count = commentsCount - start;
                 }
-
+                System.out.println("从第" + start + "个评论开始抓取");
 //                System.out.println("从第" + start + "个评论开始抓取");
                 executorService.submit(new CrawlComments(app, start, count, Integer.valueOf(id)));
             }
